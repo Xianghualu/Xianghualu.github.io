@@ -14,9 +14,18 @@ My research explores how emerging digital technologies shape human behavior and 
 
 News
 ======
-
 06 July 2026
 ------
-Prof. Xianghua Lu and Prof Yunjin Sun gave a talk about AI Knowledge Transfer. For more details, please visit [this website](https://www.fdsm.fudan.edu.cn/fdsti/2026/0706/c2350a34595/page.htm) 
+Prof. Xianghua Lu participated in the Fudan Science & Technology Entrepreneurship Program, teaching a module on strategic management, technological innovation, and business model innovation. [Read more](https://www.fdsm.fudan.edu.cn/fdsti/2026/0706/c2350a34595/page.htm) 
+
+07 June 2026
+------
+Prof. Xianghua Lu gave a lecture about Digital Partner Program in Shanghai in ____ 
+
+16 May 2026
+------
+of Management on the implementation and scaling of enterprise-level AI agents, discussing AI agent applications, organizational transformation, and strategies for moving from pilot projects to large-scale deployment. [Read more](http://m.mbaedu.cn/news/view/id/28157.html)
+
+
 
 
