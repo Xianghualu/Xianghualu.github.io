@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Bio"
+title: "About"
 author_profile: true
 redirect_from: 
   - /about/
@@ -17,6 +17,10 @@ News
 06 July 2026
 ------
 Prof. Xianghua Lu participated in the Fudan Science & Technology Entrepreneurship Program, teaching a module on strategic management, technological innovation, and business model innovation. [Read more](https://www.fdsm.fudan.edu.cn/fdsti/2026/0706/c2350a34595/page.htm) 
+
+12 June 2026
+------
+Prof. Xianghua Lu co-authored a paper, “When AI Takes the Lead: How AI Solicitation Shapes Users Engagement in Human-AI Collaboration,” with Yunchang Zhu and Cheng Zhang. Published in the PACIS 2026 Proceedings, the study examines how AI-initiated solicitation influences user engagement in human-AI collaboration through perceived accountability and perceived status loss. [Read more](https://aisel.aisnet.org/pacis2026/hci_robotic/hci_robotic/2/)
 
 07 June 2026
 ------
