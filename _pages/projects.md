@@ -4,8 +4,6 @@ permalink: /projects/
 author_profile: true
 ---
 
-Research Projects
-======
 
 Prof. Xianghua Lu has been involved in a range of research projects supported by national research programs and other funding agencies.
 
