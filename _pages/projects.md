@@ -4,8 +4,6 @@ permalink: /projects/
 author_profile: true
 ---
 
-Projects
-======
 
 ## Research Grants
 
