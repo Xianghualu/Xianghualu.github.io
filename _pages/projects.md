@@ -7,13 +7,27 @@ author_profile: true
 
 ## Research Grants
 
-- **Research on the Design and Management Mechanisms of Digital Agent Systems Based on Generative Artificial Intelligence**  
-  （基于生成式人工智能的数字代理人系统设计与管理机制研究）  
-  National Natural Science Foundation of China (Special Project), No. 72442011.
+1. **Design and Management Mechanisms of Generative AI-Based Digital Agent Systems**  
+   *基于生成式人工智能的数字代理人系统设计与管理机制研究*  
+   January 2025 – December 2028  
+   Principal Investigator  
+   National Natural Science Foundation of China (Special Project)
 
-- **Research on Human-AI Behavioral Collaboration in the Digital Technology Environment**  
-  （数字技术环境下的人机行为协同研究）  
-  National Natural Science Foundation of China (Distinguished Young Scholars Fund), No. 72225004.
+2.**Research on Human-AI Behavioral Collaboration in the Digital Technology Environment**
+（数字技术环境下的人机行为协同研究）
+National Natural Science Foundation of China (Distinguished Young Scholars Fund), No. 72225004.
+  
+3. **The Relationship Between Order Tasks and Riders' Work Quality and Safety in On-Demand Delivery Services**  
+   *外买配送业务中订单任务与骑手工作质量及安全保障的关系研究*  
+   November 2020 – August 2021  
+   Principal Investigator  
+   Hanhai Information Technology (Shanghai) Co., Ltd.
+
+4. **User Repayment Behavior and Intervention Mechanisms on Internet Finance Platforms: A Prosocial Theory Perspective**  
+   *互联网金融平台的用户还款行为及其干预机制研究：基于亲社会理论视角*  
+   January 2019 – December 2022  
+   Principal Investigator  
+   National Natural Science Foundation of China (General Program)
 
 ## Awards & Honors
 
