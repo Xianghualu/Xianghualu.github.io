@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-
 I am a Professor and Ph.D. Supervisor  at the [Department of Information Management and Business Intelligence](https://www.fdsm.fudan.edu.cn/department/xxgl/zhuanye.aspx), in School of Management, Fudan University. I am a recipient of the National Science Fund for Distinguished Young Scholars, the National Science Fund for Excellent Young Scholars (2014), and the Wu Jiapei Award in Information Economics (2020).
   
 My research explores how emerging digital technologies shape human behavior and create value for individuals, organizations, and society. My current research focuses on Human-AI/EI Collaboration, user behavior in the digital economy, and the value and management of new technologies. My work has been published in leading journals in information systems, management, and marketing, including *MIS Quarterly*, *Information Systems Research*, and *Journal of Marketing*.
