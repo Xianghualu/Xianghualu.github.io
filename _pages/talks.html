@@ -1,16 +1,114 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+{% include base_path %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+<style>
+.talk-section {
+  margin-bottom: 2.5em;
+}
 
-{% endif %}
+.talk-section h2 {
+  font-size: 1.25em;
+  font-weight: 600;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 0.45em;
+  margin-bottom: 1em;
+}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+.talk-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.talk-list li {
+  margin-bottom: 1.15em;
+  line-height: 1.65;
+}
+
+.talk-date {
+  font-weight: 600;
+}
+
+.talk-title {
+  font-weight: 600;
+}
+
+.talk-venue {
+  font-style: italic;
+}
+
+.talk-description {
+  display: block;
+  margin-top: 0.2em;
+  color: #555;
+}
+</style>
+
+<!-- Seminars & Invited Talks -->
+<div class="talk-section">
+  <h2>Seminars &amp; Invited Talks</h2>
+
+  <ol class="talk-list">
+    <!-- Add seminar and invited talk entries here -->
+  </ol>
+</div>
+
+<!-- Conference Presentations -->
+<div class="talk-section">
+  <h2>Conference Presentations</h2>
+
+  <ol class="talk-list">
+    <li>
+      <span class="talk-date">12 July 2026.</span>
+      <span class="talk-title">Keynote Speech on Human-Robot Collaboration and Nonverbal Interaction in the Era of Embodied Intelligence.</span>
+      <span class="talk-venue">CBDAI 2026, Yantai, China.</span>
+      <span class="talk-description">
+        Keynote presentation discussing nonverbal interaction mechanisms in human-robot collaboration and the influence of multimodal visual and tactile interaction on collaboration efficiency.
+        <a href="https://gkgc.sdufe.edu.cn/info/1098/15340.htm" target="_blank" rel="noopener noreferrer">Event details</a>.
+      </span>
+    </li>
+  </ol>
+</div>
+
+<!-- Keynotes & Public Lectures -->
+<div class="talk-section">
+  <h2>Keynotes &amp; Public Lectures</h2>
+
+  <ol class="talk-list">
+    <li>
+      <span class="talk-date">14 November 2026.</span>
+      <span class="talk-title">AI Management Reshaping New Quality Productive Forces.</span>
+      <span class="talk-venue">Fudan Management Forum, Suzhou, China.</span>
+      <span class="talk-description">
+        Delivered a keynote speech and chaired a roundtable discussion.
+        <a href="https://mobile.fdsm.fudan.edu.cn/cs/AboutUs/fdsm1556955626172" target="_blank" rel="noopener noreferrer">Event details</a>.
+      </span>
+    </li>
+
+    <li>
+      <span class="talk-date">11 September 2026.</span>
+      <span class="talk-title">AI-based Supply Chain Management System Optimization.</span>
+      <span class="talk-venue">Fudan EMBA Science &amp; Technology Innovation Forum.</span>
+      <span class="talk-description">
+        Delivered a keynote presentation and chaired a roundtable discussion on pathways for implementing AI in supply chain management.
+        <a href="https://www.fdsm.fudan.edu.cn/emba/2026/0908/c1159a37245/page.htm" target="_blank" rel="noopener noreferrer">Event details</a>.
+      </span>
+    </li>
+
+    <li>
+      <span class="talk-date">6 July 2026.</span>
+      <span class="talk-title">Strategic Management, Technological Innovation, and Business Model Innovation.</span>
+      <span class="talk-venue">Fudan Science &amp; Technology Entrepreneurship Program.</span>
+      <span class="talk-description">
+        Delivered a lecture on strategic management, technological innovation, and business model innovation.
+        <a href="https://www.fdsm.fudan.edu.cn/fdsti/2026/0706/c2350a34595/page.htm" target="_blank" rel="noopener noreferrer">Event details</a>.
+      </span>
+    </li>
+  </ol>
+</div>
