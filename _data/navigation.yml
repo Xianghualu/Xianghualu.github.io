@@ -23,8 +23,8 @@ main:
   - title: "People"
     url: /people/
         
-  - title: "Lab News"
-    url: /lab-news/
+  #- title: "Lab News"
+  #  url: /lab-news/
 
   - title: "Outreach"
     url: /outreach/
