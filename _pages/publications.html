@@ -5,32 +5,495 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<div class="wordwrap">
+  You can also find my publications on
+  <a href="https://scholar.google.com/citations?hl=en&user=02kbNoQAAAAJ">
+    Google Scholar
+  </a>.
+</div>
+
+<style>
+.publication-section {
+  margin-top: 2.5em;
+  margin-bottom: 2em;
+}
+
+.publication-section h2 {
+  margin-bottom: 0.8em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.publication-section h3 {
+  margin-top: 1.8em;
+  margin-bottom: 0.8em;
+}
+
+.publication-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.publication-list li {
+  margin-bottom: 1.25em;
+  line-height: 1.65;
+}
+
+.publication-title {
+  font-weight: 600;
+}
+
+.publication-meta {
+  color: #666;
+  font-size: 0.94em;
+}
+
+.publication-tag {
+  display: inline-block;
+  font-size: 0.72em;
+  font-weight: 600;
+  padding: 2px 7px;
+  margin-right: 5px;
+  border-radius: 3px;
+  background: #eaf1f8;
+  color: #315b7d;
+  vertical-align: middle;
+}
+
+.publication-tag.featured {
+  background: #edf5ed;
+  color: #3d7043;
+}
+
+.publication-note {
+  color: #777;
+  font-size: 0.9em;
+  margin-top: 1em;
+}
+</style>
 
 
+<!-- ================================================= -->
+<!-- 1. SELECTED PAPERS -->
+<!-- ================================================= -->
 
+<section class="publication-section">
+
+<h2>Selected Papers</h2>
+
+<ul class="publication-list">
+
+<li>
+  <span class="publication-tag featured">Featured</span>
+  <span class="publication-title">
+    Raise the Expectation Bar and Lower the Tolerance? Effects of Being Listed in a Restaurant Guide on Customers’ Online Rating Behavior.
+  </span><br>
+  Hui Yang, Xianghua Lu, Liangfei Qiu, and Yicheng Zhang. 2026.
+  <em>Production and Operations Management</em>, 35(9), 3372–3390.
+  <a href="https://doi.org/10.1177/10591478261429211">DOI</a>
+</li>
+
+<li>
+  <span class="publication-title">
+    Enhancing Product Information Access in Physical Retail Operations: How Do Scan &amp; Go Technologies Affect Consumers’ In-Store Purchases?
+  </span><br>
+  Tingting Song, Zenan Zhou, Xianghua Lu, and Tian Lu. 2025.
+  <em>Decision Sciences</em>, 56(6), 553–577.
+  <a href="https://doi.org/10.1111/deci.70001">DOI</a>
+</li>
+
+<li>
+  <span class="publication-tag">AI</span>
+  <span class="publication-tag featured">Featured</span>
+  <span class="publication-title">
+    Being Responsible or Affable: Investigating the Effects of AI Error Correction Behaviors on User Engagement.
+  </span><br>
+  Yunchang Zhu and Xianghua Lu. 2025.
+  <em>Decision Support Systems</em>, 198, 114542.
+  <a href="https://doi.org/10.1016/j.dss.2025.114542">DOI</a>
+</li>
+
+<li>
+  <span class="publication-title">
+    Social Media Meets FinTech Platforms: How Do Online Emotions Support Credit Risk Decision-Making?
+  </span><br>
+  Zenan Zhou, Zhichen Chen, Yingjie Zhang, Tian Lu, and Xianghua Lu. 2025.
+  <em>Decision Support Systems</em>, 195, 114471.
+  <a href="https://doi.org/10.1016/j.dss.2025.114471">DOI</a>
+</li>
+
+<li>
+  <span class="publication-title">
+    Mutual Disclosures and Content Intimacy in User Engagement: Evidence from an Online Chat Group.
+  </span><br>
+  Yue (Katherine) Feng, Xianghua Lu, and Xiaoquan (Michael) Zhang. 2024.
+  <em>MIS Quarterly</em>, 48(4), 1331–1362.
+  <a href="https://doi.org/10.25300/MISQ/2023/17481">DOI</a>
+</li>
+
+<li>
+  <span class="publication-title">
+    The Effects of Featuring Product Sampling Reviews on E-Tailer Websites.
+  </span><br>
+  Xianghua Lu, David Phang, Sulin Ba, and Xinlin Yao. 2024.
+  <em>Journal of the Association for Information Systems</em>, 25(3), 618–647.
+  <a href="https://doi.org/10.17705/1jais.00834">DOI</a>
+</li>
+
+<li>
+  <span class="publication-title">
+    Being Emotionally Supportive: Exploring the Value of Emotional Appeals Retargeting in Recovering Consumers of Financial Services.
+  </span><br>
+  Tian Lu, Xianghua Lu, Hui Yang, and Peter Zhang. 2024.
+  <em>Production and Operations Management</em>, 33(1), 166–183.
+  <a href="https://doi.org/10.1177/10591478231224925">DOI</a>
+</li>
+
+</ul>
+</section>
+
+
+<!-- ================================================= -->
+<!-- 2. CONFERENCE PAPERS -->
+<!-- ================================================= -->
+
+<section class="publication-section">
+
+<h2>Conference Papers</h2>
+
+<ul class="publication-list">
+
+<li>
+  <span class="publication-tag">Human-AI Collaboration</span>
+  <span class="publication-title">
+    When AI Takes the Lead: How AI Solicitation Shapes Users' Engagement in Human-AI Collaboration.
+  </span><br>
+  Yunchang Zhu, Xianghua Lu, and Cheng Zhang. 2026.
+  <em>Proceedings of the Pacific Asia Conference on Information Systems (PACIS 2026)</em>.
+  <a href="https://aisel.aisnet.org/pacis2026/hci_robotic/hci_robotic/2/">
+    Paper
+  </a>
+</li>
+
+</ul>
+
+</section>
+
+
+<!-- ================================================= -->
+<!-- 3. WORKING PAPERS -->
+<!-- ================================================= -->
+
+<section class="publication-section">
+
+<h2>Working Papers</h2>
+
+<ul class="publication-list">
+
+<li>
+  <span class="publication-tag">Human-AI Collaboration</span>
+  <span class="publication-title">
+    Augmented Algorithms, Adaptive Humans? Evidence from a Natural Experiment.
+  </span><br>
+  Tian Lu, Xianghua Lu, Y. Huang, and H. Wang. 2025.
+  Working paper.
+</li>
+
+<li>
+  <span class="publication-tag">Human-AI Collaboration</span>
+  <span class="publication-title">
+    At the Cost of Active Thinking: Investigating the Role of Presentation Explicitness in Human-AI Collaboration.
+  </span><br>
+  Xianghua Lu, Y. Huang, Y. Zhang, and L. Shen. 2023.
+  SSRN Working Paper No. 4547893.
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4547893">
+    SSRN
+  </a>
+</li>
+
+<li>
+  <span class="publication-title">
+    When Less Is More? Deep Reinforcement Learning-Based Optimization of Debt Collection.
+  </span><br>
+  C. Yang, Tian Lu, B. Li, and Xianghua Lu. 2023.
+  Working paper.
+</li>
+
+<li>
+  <span class="publication-title">
+    A Bright Side of Anger: A Comprehensive Exploration of Borrowers’ Emotions and Credit Risk Management.
+  </span><br>
+  Tian Lu, Z. Chen, Y. Zhang, and Xianghua Lu. 2022.
+  SSRN Electronic Journal.
+</li>
+
+<li>
+  <span class="publication-title">
+    Soliciting Positive Consumer Behavior in Self-Service Technology Failures Through Social Nudging: Field Experiment Research.
+  </span><br>
+  Y. Zhang and Xianghua Lu. 2021.
+  SSRN Working Paper No. 3986668.
+</li>
+
+</ul>
+
+</section>
+
+
+<!-- ================================================= -->
+<!-- 4. PUBLICATIONS BY RESEARCH AREA -->
+<!-- ================================================= -->
+
+<section class="publication-section">
+
+<h2>Publications by Research Area</h2>
+
+
+<!-- HUMAN-AI COLLABORATION -->
+
+<h3>Human-AI Collaboration &amp; Artificial Intelligence</h3>
+
+<ul class="publication-list">
+
+<li>
+  <span class="publication-tag">AI</span>
+  <span class="publication-title">
+    Being Responsible or Affable: Investigating the Effects of AI Error Correction Behaviors on User Engagement.
+  </span><br>
+  Yunchang Zhu and Xianghua Lu. 2025.
+  <em>Decision Support Systems</em>, 198, 114542.
+  <a href="https://doi.org/10.1016/j.dss.2025.114542">DOI</a>
+</li>
+
+<li>
+  <span class="publication-tag">AI</span>
+  <span class="publication-title">
+    RACL: A Robust Adaptive Contrastive Learning Method for Conversational Satisfaction Prediction.
+  </span><br>
+  Gang Chen, Xiangge Li, Shuaiyong Xiao, Chenghong Zhang, and Xianghua Lu. 2023.
+  <em>Pattern Recognition</em>, 138, 109386.
+</li>
+
+<li>
+  <span class="publication-tag">AI</span>
+  <span class="publication-title">
+    Novel Role-Wise Attention Mechanism for Predicting Purchases Made Through Chat-Based Online Customer Services.
+  </span><br>
+  Yajing Wang, Gang Chen, Yunjie (Calvin) Xu, and Xianghua Lu. 2023.
+  <em>Decision Support Systems</em>, 169, 113942.
+</li>
+
+</ul>
+
+
+<!-- DIGITAL PLATFORMS -->
+
+<h3>Digital Platforms &amp; User Behavior</h3>
+
+<ul class="publication-list">
+
+<li>
+  <span class="publication-title">
+    Raise the Expectation Bar and Lower the Tolerance? Effects of Being Listed in a Restaurant Guide on Customers’ Online Rating Behavior.
+  </span><br>
+  Hui Yang, Xianghua Lu, Liangfei Qiu, and Yicheng Zhang. 2026.
+  <em>Production and Operations Management</em>, 35(9), 3372–3390.
+  <a href="https://doi.org/10.1177/10591478261429211">DOI</a>
+</li>
+
+<li>
+  <span class="publication-title">
+    Mutual Disclosures and Content Intimacy in User Engagement: Evidence from an Online Chat Group.
+  </span><br>
+  Yue (Katherine) Feng, Xianghua Lu, and Xiaoquan (Michael) Zhang. 2024.
+  <em>MIS Quarterly</em>, 48(4), 1331–1362.
+  <a href="https://doi.org/10.25300/MISQ/2023/17481">DOI</a>
+</li>
+
+<li>
+  <span class="publication-title">
+    The Effects of Similarity in Supplier Referral Programs on Peer-to-Peer Platforms: From the Coopetition Perspective.
+  </span><br>
+  Yufeng Zou, Yicheng Zhang, and Xianghua Lu. 2024.
+  <em>Electronic Markets</em>, 34, Article 9.
+</li>
+
+<li>
+  <span class="publication-title">
+    The Little Bid More, the Merrier? Quantifying the Effects of Filler-Item Recommendations in Contingent Free Shipping.
+  </span><br>
+  Tian Lu, Xianghua Lu, and Yifan Dou. 2023.
+  <em>Electronic Commerce Research and Applications</em>, 61, 101299.
+</li>
+
+<li>
+  <span class="publication-title">
+    Examining the Spillover Effect of Sustainable Consumption on Microloan Repayment: A Big Data-Based Research.
+  </span><br>
+  Yuanqiang Ye, Xianghua Lu, and Tian Lu. 2022.
+  <em>Information &amp; Management</em>, 59(5), 103288.
+</li>
+
+<li>
+  <span class="publication-title">
+    Can Social Notifications Help to Mitigate Payment Delinquency in Online Peer-to-Peer Lending?
+  </span><br>
+  Xianghua Lu, Tian Lu, Chong (Alex) Wang, and Ruofan Wu. 2021.
+  <em>Production and Operations Management</em>, 30(8), 2564–2585.
+</li>
+
+<li>
+  <span class="publication-title">
+    The Double-Edged Effects of E-Commerce Cart Retargeting: Does Retargeting Too Early Backfire?
+  </span><br>
+  Jing Li, Xueming Luo, Xianghua Lu, and Takeshi Moriguchi. 2021.
+  <em>Journal of Marketing</em>, 85(4), 123–140.
+</li>
+
+<li>
+  <span class="publication-title">
+    One Size Fits All? The Differential Impact of Online Reviews and Coupons.
+  </span><br>
+  Sulin Ba, Yuan Jin, Xinxin Li, and Xianghua Lu. 2020.
+  <em>Production and Operations Management</em>, 29(10), 2403–2424.
+</li>
+
+<li>
+  <span class="publication-title">
+    Is User-Generated Content Always Helpful? The Effects of Online Forum Browsing on Consumers' Travel Purchase Decisions.
+  </span><br>
+  Xianghua Lu, Shu He, Shaohua Lian, Sulin Ba, and Junjie Wu. 2020.
+  <em>Decision Support Systems</em>, 137.
+</li>
+
+<li>
+  <span class="publication-title">
+    Know Who to Give: Enhancing the Effectiveness of Online Product Sampling.
+  </span><br>
+  Xianghua Lu, Chee Wei Phang, Sulin Ba, and Xinlin Yao. 2018.
+  <em>Decision Support Systems</em>, 105, 77–86.
+</li>
+
+<li>
+  <span class="publication-title">
+    Dynamic Sales Impacts of Online Physical Product Sampling.
+  </span><br>
+  Xinlin Yao, Xianghua Lu, Chee Wei Phang, and Sulin Ba. 2017.
+  <em>Information &amp; Management</em>, 54(5), 599–612.
+</li>
+
+<li>
+  <span class="publication-title">
+    Is Combining Contextual and Behavioral Targeting Strategies Effective in Online Advertising?
+  </span><br>
+  Xianghua Lu, Xia Zhao, and Ling Xue. 2016.
+  <em>ACM Transactions on Management Information Systems</em>, 7(1).
+</li>
+
+<li>
+  <span class="publication-title">
+    An Empirical Study of the Cross-Channel Effects Between Web and Mobile Shopping Channels.
+  </span><br>
+  Lei Huang, Xianghua Lu, and Sulin Ba. 2016.
+  <em>Information &amp; Management</em>, 53(2), 265–278.
+</li>
+
+<li>
+  <span class="publication-title">
+    The Economic Value of Online Reviews.
+  </span><br>
+  Chunhua Wu, Hai Che, Tat Y. Chan, and Xianghua Lu. 2015.
+  <em>Marketing Science</em>, 34(5), 739–754.
+</li>
+
+<li>
+  <span class="publication-title">
+    The Role of IS Capabilities in the Development of Multi-Sided Platforms: The Digital Ecosystem Strategy of Alibaba.com.
+  </span><br>
+  Barney Tan, Shan L. Pan, Xianghua Lu, and Lihua Huang. 2015.
+  <em>Journal of the Association for Information Systems</em>, 16(4), 248–280.
+</li>
+
+<li>
+  <span class="publication-title">
+    Differential Effects of Keyword Selection in Search Engine Advertising on Direct and Indirect Sales.
+  </span><br>
+  Xianghua Lu and Xia Zhao. 2014.
+  <em>Journal of Management Information Systems</em>, 30(4), 299–325.
+</li>
+
+<li>
+  <span class="publication-title">
+    Building Online Trust in a Culture of Confucianism: The Impact of Process Flexibility and Perceived Control.
+  </span><br>
+  Lihua Huang, Sulin Ba, and Xianghua Lu. 2014.
+  <em>ACM Transactions on Management Information Systems</em>, 5(1).
+</li>
+
+</ul>
+
+
+<!-- DIGITAL TECHNOLOGY -->
+
+<h3>Digital Technology &amp; Business Value</h3>
+
+<ul class="publication-list">
+
+<li>
+  <span class="publication-title">
+    Enhancing Product Information Access in Physical Retail Operations: How Do Scan &amp; Go Technologies Affect Consumers’ In-Store Purchases?
+  </span><br>
+  Tingting Song, Zenan Zhou, Xianghua Lu, and Tian Lu. 2025.
+  <em>Decision Sciences</em>, 56(6), 553–577.
+  <a href="https://doi.org/10.1111/deci.70001">DOI</a>
+</li>
+
+<li>
+  <span class="publication-title">
+    Social Media Meets FinTech Platforms: How Do Online Emotions Support Credit Risk Decision-Making?
+  </span><br>
+  Zenan Zhou, Zhichen Chen, Yingjie Zhang, Tian Lu, and Xianghua Lu. 2025.
+  <em>Decision Support Systems</em>, 195, 114471.
+  <a href="https://doi.org/10.1016/j.dss.2025.114471">DOI</a>
+</li>
+
+<li>
+  <span class="publication-title">
+    The Effects of Featuring Product Sampling Reviews on E-Tailer Websites.
+  </span><br>
+  Xianghua Lu, David Phang, Sulin Ba, and Xinlin Yao. 2024.
+  <em>Journal of the Association for Information Systems</em>, 25(3), 618–647.
+  <a href="https://doi.org/10.17705/1jais.00834">DOI</a>
+</li>
+
+<li>
+  <span class="publication-title">
+    Being Emotionally Supportive: Exploring the Value of Emotional Appeals Retargeting in Recovering Consumers of Financial Services.
+  </span><br>
+  Tian Lu, Xianghua Lu, Hui Yang, and Peter Zhang. 2024.
+  <em>Production and Operations Management</em>, 33(1), 166–183.
+  <a href="https://doi.org/10.1177/10591478231224925">DOI</a>
+</li>
+
+<li>
+  <span class="publication-title">
+    Leveraging O2O Commerce for Product Promotion: An Empirical Investigation in Mainland China.
+  </span><br>
+  Chee Wei Phang, Chuan-Hoo Tan, Juliana Sutanto, Fabio Magagna, and Xianghua Lu. 2014.
+  <em>IEEE Transactions on Engineering Management</em>, 61(4), 623–632.
+</li>
+
+</ul>
+
+</section>
+
+
+<p class="publication-note">
+  For the latest publication and citation information, please visit
+  <a href="https://scholar.google.com/citations?hl=en&user=02kbNoQAAAAJ">
+    Google Scholar
+  </a>.
+</p>
