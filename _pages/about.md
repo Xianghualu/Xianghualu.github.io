@@ -16,7 +16,8 @@ My research explores how emerging digital technologies shape human behavior and 
 
 
 
-## News
+News
+======
 
 ### 14 November 2026
 
