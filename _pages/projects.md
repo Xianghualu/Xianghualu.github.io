@@ -13,7 +13,7 @@ author_profile: true
    Principal Investigator  
    National Natural Science Foundation of China (Special Project)
 
-2.**Research on Human-AI Behavioral Collaboration in the Digital Technology Environment**
+2. **Research on Human-AI Behavioral Collaboration in the Digital Technology Environment**
 （数字技术环境下的人机行为协同研究）
 National Natural Science Foundation of China (Distinguished Young Scholars Fund), No. 72225004.
   
