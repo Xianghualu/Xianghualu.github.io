@@ -17,8 +17,8 @@ author_profile: true
 
 ## Awards & Honors
 
-- **National Science Fund for Excellent Young Scholars**  
-  （国家自然科学基金优秀青年科学基金项目获得者）, 2014.
+- **National Science Fund for for Distinguished Young Scholars**  
+  （国家自然科学基金杰出青年科学基金项目获得者）.
 
 - **Wu Jiapei Funding Program in Chinese Information Economics**  
   （中国信息经济学家乌家培资助计划）, 2020.
@@ -37,6 +37,9 @@ author_profile: true
 
 - **Best Workshop Paper, China Summer Workshop on Information Management (CSWIM 2019)**  
   （第十三届中国信息管理夏季研讨会最佳论文）, 2019.
+
+- **National Science Fund for Excellent Young Scholars**  
+  （国家自然科学基金优秀青年科学基金项目获得者）, 2014.
 
 - **Best Scholar, Alibaba Young Scholars Support Program (Phase II)**  
   （阿里巴巴青年学者支持计划第二期最佳学者）, 2011.
