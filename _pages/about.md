@@ -9,8 +9,10 @@ redirect_from:
 
 
 I am a Professor at the [Department of Information Management and Business Intelligence](https://www.fdsm.fudan.edu.cn/department/xxgl/zhuanye.aspx), in School of Management, Fudan University.
+<div style="margin-bottom: 2em;"></div>
 
 My research explores how emerging digital technologies shape human behavior and create value for individuals, organizations, and society. My current research focuses on Human-AI/EI Collaboration, user behavior in the digital economy, and the value and management of new technologies. My work has been published in leading journals in information systems, management, and marketing, including *MIS Quarterly*, *Information Systems Research*, and *Journal of Marketing*.
+<div style="margin-bottom: 2em;"></div>
 
 ## News
 
