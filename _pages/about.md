@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Distinguished Professor at the [Department of Information Management and Business Intelligence](https://www.fdsm.fudan.edu.cn/department/xxgl/zhuanye.aspx), in School of Management, Fudan University. I currently direct a Human-AI / Embodied AI Collaboration Research Lab at our school (https://xianghualu.github.io/people/).
+I am a Distinguished Professor at the [Department of Information Management and Business Intelligence](https://www.fdsm.fudan.edu.cn/department/xxgl/zhuanye.aspx), in School of Management, Fudan University. I currently direct a Human-AI / Embodied AI Collaboration Research Lab at our school (https://xianghualu.github.io/lab/).
   
 My research explores how emerging digital technologies shape human behavior and create value for individuals, organizations, and society. My current research focuses on Human-AI/Embodied AI Collaboration, user behavior in the digital economy, and the value and management of new technologies. My work has been published in leading journals in information systems, management, and marketing, including *Management Science*, *MIS Quarterly*, *Information Systems Research*, and *Journal of Marketing*. I have recently published a book titled *AI Revolution: Five Laws of Human-Machine Symbiosis*. I have multiple research projects funded by National Natural Science Foundation of China, and serves as consultants for several Hi-tech enterprises.
     
