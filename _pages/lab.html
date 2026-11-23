@@ -1,1 +1,115 @@
+---
+layout: archive
+title: "Lab"
+permalink: /lab/
+author_profile: true
+---
+
+{% include base_path %}
+
+<style>
+.lab-section {
+  margin-bottom: 2.5em;
+}
+
+.lab-section h2 {
+  font-size: 1.25em;
+  font-weight: 600;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 0.45em;
+  margin-bottom: 1.2em;
+}
+
+.lab-name {
+  font-size: 1.15em;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+.lab-intro {
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.member-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.member-card {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 1.5em;
+  align-items: start;
+}
+
+.member-photo {
+  width: 150px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.member-info {
+  line-height: 1.6;
+}
+
+.member-name {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-bottom: 0.25em;
+}
+
+.member-position {
+  color: #555;
+  margin-bottom: 0.8em;
+}
+
+.member-interest {
+  margin-top: 0.5em;
+}
+
+@media screen and (max-width: 600px) {
+  .member-card {
+    grid-template-columns: 110px 1fr;
+    gap: 1em;
+  }
+
+  .member-photo {
+    width: 110px;
+    height: 140px;
+  }
+}
+</style>
+
+<!-- About the Lab -->
+<div class="lab-section">
+  <h2>About the Lab</h2>
+
+  <div class="lab-name">
+    Human-AI / Embodied AI Collaboration Research Lab
+  </div>
+
+  <p class="lab-intro">
+    The Human-AI / Embodied AI Collaboration Research Lab at the School of Management, Fudan University, investigates how AI and embodied AI systems can interact and collaborate with humans through natural, socially intelligent behavior.
+  </p>
+
+  <p class="lab-intro">
+    Our current research focuses on nonverbal interaction between humans and embodied agents, including eye gaze, touch, gesture, facial expression, and proxemics, as well as the consistency and readability of multimodal actions.
+  </p>
+
+  <p class="lab-intro">
+    Our goal is to make robots and virtual agents not only capable collaborators, but also collaborators with whom people can work comfortably and effectively.
+  </p>
+</div>
+
+<div class="lab-image">
+  <img src="{{ base_path }}/images/lab-equipment.jpg"
+       alt="Lab equipment and research environment">
+  <p class="lab-image-caption">
+    Lab equipment and research environment
+  </p>
+</div>
+
 
